@@ -1,0 +1,6 @@
+@model MSBuildRazorIssue.Models.CreateModel
+
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.Id)
+}
